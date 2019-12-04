@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  color: blueviolet;
+}
+
+.emucolor {
+  background: #ed7d31;
+}
+
+.emufont {
+  color: #ed7d31;
+}
+
+.big-lead {
+  font-size: 2em;
+}
+
+.logofont {
+  font-family: "Nosifer", cursive;
+  background: linear-gradient(
+    330deg,
+    #e05252 0%,
+    #99e052 25%,
+    #52e0e0 50%,
+    #9952e0 75%,
+    #e05252 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* contact form */
+.contact {
+  height: 100vh;
+  background: linear-gradient(
+      105deg,
+      rgba(21, 31, 32, 1) 0%,
+      rgba(21, 31, 32, 0.95) 50%,
+      transparent 50%
+    ),
+    url(../images/emu2.jpg) center center no-repeat / cover;
+}
+
+.contact2 {
+  height: 100vh;
+  background: linear-gradient(
+      105deg,
+      rgba(21, 31, 32, 1) 0%,
+      rgba(21, 31, 32, 0.95) 50%,
+      transparent 50%
+    ),
+    url(../images/emu4.jpg) center center no-repeat / cover;
+}
+
+.contact-reset {
+  height: 100vh;
+  background: linear-gradient(
+      105deg,
+      rgba(21, 31, 32, 1) 0%,
+      rgba(21, 31, 32, 0.95) 50%,
+      transparent 50%
+    ),
+    url(../images/pass_reset.jpg) center center no-repeat / cover;
+}
+
+.input {
+  background: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  transition: all 0.8s;
+}
+
+.input:focus {
+  background: transparent;
+  background-color: transparent;
+  box-shadow: none !important;
+  color: #fff;
+  border-bottom: 2px solid #f5593d;
+}
+
+.submit-button {
+  background: #f5593d;
+  color: #eee;
+  transition: all 0.3s;
+}
+.submit-button:hover {
+  background: #f9793d;
+  transform: translateY(-3px);
+}
+.extrapad {
+  margin-bottom: 20px;
+  color: #151f20;
+}
+
+.label {
+  color: #777;
+  display: block;
+  margin-top: -70px;
+  margin-left: 4px;
+  font-size: 13px;
+  transition: all 0.6s;
+}
+
+.input:placeholder-shown + .label {
+  transform: translate(20px, 20px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 992px) {
+  .contact {
+    background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, 0.95));
+  }
+
+  .contact-form {
+    width: 80%;
+    margin: auto;
+  }
+}
+/* end of contact form */
+
+/* Dashboard page */
+
+/* navbar */
+.sidebar {
+  height: 100vh;
+  background: linear-gradient(rgba(190, 90, 23, 0.7), rgba(17, 7, 0, 0.9)),
+    url(../images/emusidebar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 7px 25px #999;
+}
+
+.small-text {
+  font-size: 1rem;
+}
+
+.bottom-border {
+  border-bottom: 1px groove #eee;
+}
+.sidebar-link {
+  transition: all 0.4s;
+}
+.sidebar-link:hover {
+  background-color: #ed7d31;
+  border-radius: 5px;
+}
+
+.current {
+  background-color: #ed7d31;
+  border-radius: 5px;
+  /* box-shadow: 2px 5px 10px #111; */
+  transition: all 0.3s;
+}
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.current:hover {
+  background-color: #ec955a;
+  border-radius: 7px;
+  /* box-shadow: 2px 5px 20px #111; */
+  transform: translateY(-2px);
+}
+/* end of navbar */
